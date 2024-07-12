@@ -1,0 +1,393 @@
+body{
+    background-color: rgb(213, 252, 239);
+}
+._01{
+    background-color: rgb(255, 246, 236);
+    width: 800px;
+}
+
+table, th, tr{
+    background-color: rgb(255, 246, 236);
+    border: solid green ;
+    border-collapse: collapse;
+}
+
+td{
+    border: solid green;
+    font-size: 18px;
+   font-style: italic;
+   text-align:center;
+
+}
+
+img{
+    height: 120px;
+    width: 105px;
+}
+
+img:hover{
+    height: 500px;
+    width: 450px;
+}
+
+/* td:hover{
+    width: 30rem;
+  
+} */
+
+.wrappings{
+    width: 45%;
+    float: left;
+}
+
+.wrappings > img{
+    padding: 5px 10px 5px 0px;
+    margin: 5px;
+    height: 200px;
+    width: 250px;
+    float: left;
+   
+}
+
+.wrappings_01{
+    width: 45%;
+    float: right;
+   
+}
+
+.wrappings_01 > img{
+    padding: 5px 10px 5px 0px;
+    margin: 5px;
+    height: 200px;
+    width: 250px;
+    float: left;
+}
+
+.wrappings_01 >img{
+    clear: both;
+}
+
+.container{
+    clear: both;
+    display: flex;
+    gap: 1.5rem;
+    padding: 10px;
+ 
+}
+
+.container > div{
+    background-color: green;
+    text-align: center;
+}
+
+.first > p{
+    background-color: yellow;
+    font: bold italic 17px  serif; 
+    color: rgb(53, 53, 240);
+} 
+
+.second > p{
+    background-color: beige;
+    font: bold italic 17px  serif; 
+    color: rgb(53, 218, 240);
+}
+
+.third > p{
+    background-color: rgb(250, 185, 185);
+    font: bold italic 17px  serif; 
+    color: rgb(34, 236, 7);
+}
+
+span{
+    font:bold italic 17px  serif;
+    color: red ;
+}
+
+.abia_01{
+    height: 500px;
+    width: 400px;
+}
+
+.first_01{
+    font: bold  12px verdana;
+}
+
+.forms01{
+    font: 12px verdana;
+}
+
+.container_01{
+    clear: both;
+    display: flex;
+    gap: 6.5rem;
+    padding: 10px;
+}
+
+.Second_01{
+    font: bold  12px verdana;
+}
+
+#abia01{
+    background-image: url(1.jpg);
+}
+
+@media (max-width:250px) {
+    /* div{
+        flex-direction: column;
+    } */
+    .pricing{
+        flex-direction: column;
+        gap: 10px;
+
+    }
+}
+
+.containment{
+    display: flex;
+    border: solid aquamarine ;
+    flex-direction: column;
+    width: 100px;
+
+}
+
+.red1{
+    background-color: red;
+}
+
+.orange1{
+    background-color: orange;
+}
+
+.yellow1{
+    background-color: yellow;
+}
+
+.green1{
+    background-color: green;
+}
+
+.blue1{
+    background-color: blue;
+}
+
+.indigo1{
+    background-color: indigo;
+}
+
+.violet1{
+    background-color: violet;
+    align-self: flex-end;
+}
+
+.containment >*{
+     width: 100px;
+     height: 150px;
+     text-align: center;
+     font: bold italic 25px times;
+
+}
+
+.containment01{
+    display: flex;
+    /* gap: 15px; */
+    border: solid aquamarine ;
+    flex-direction: row;
+    height: 100px;
+    flex-wrap: nowrap; 
+    justify-content:space-between;
+}
+
+.red{
+    background-color: red;
+    /* order: 0; */
+}
+
+.orange{
+    background-color: orange;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+    order: 12;
+}
+
+.blue{
+    background-color: blue;
+    order: 15;
+}
+
+.indigo{
+    background-color: indigo;
+}
+
+.violet{
+    background-color: violet;
+    /* align-self:first baseline; */
+}
+
+.purple{
+    background-color: purple;
+}
+
+.containment01 >*{
+     width: 200px;
+     text-align: center;
+     font: bold italic 25px times;
+     position: relative; 
+     justify-content: space-between;
+     gap: 30px;
+}
+
+.containerp{
+    display: flex;
+}
+
+.home{
+    background-color: aqua;
+}
+
+.about{
+    background-color: rgb(3, 105, 105);
+}
+
+.contact{
+    background-color: rgb(2, 58, 104);
+}
+
+.feel{
+    background-color: aqua;
+}
+
+.pricing{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.price_plan{
+    background-color: rgb(241, 150, 150);
+    font: 35px;
+}
+
+@media (max-width:319px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+.flag{
+    background-color: green;
+    display: flex;
+    height: 450px;
+    width: 750px;
+    border: solid black .5px;
+
+}
+
+.color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: bold 25px times;
+    text-align: center;
+}
+
+.white{
+    background-color: white;
+    height:450px ;
+    width: 250px;
+    position: absolute;
+    left: 250px;
+    text-align: center;
+}
+
+.green_1{
+    background-color: green;
+    height:450px ;
+    width: 250px;
+    position: absolute;
+    left: 500px;
+    text-align: center;
+}
+
+.green{
+    background-color: green;
+    width: 250px;
+    text-align: center;
+}
+
+.flip{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 300px;
+    grid-auto-rows: 150px;
+
+}
+
+.crass{
+    background-color: brown;
+    padding: 10px;
+}
+
+
+.glass{
+    background-color: chartreuse;
+    padding: 10px;
+}
+
+.prank{
+    background-color: crimson;
+    padding: 10px;
+}
+
+.trap{
+    background-color: darkkhaki;
+    padding: 10px;
+}
+           
+.flash{
+    background-color: rgb(107, 189, 171);
+    padding: 10px;
+}
+
+.splash{
+    background-color: rgb(107, 108, 189);
+    padding: 10px;
+}
+
+.countries{
+    display: grid;
+    height: 100vh;
+    gap: 15px ;
+    grid-template-columns: repeat(3, 2.5fr);
+    grid-template-rows: 2;
+}
+
+.countries >  div{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-size: 2.8rem;
+
+}
+
+.england{
+    display: flex;
+    flex-direction: column;
+}
+
+.spain{
+    grid-column: span 2;
+}
+
+.columbia{
+    grid-row: span 3;
+}
